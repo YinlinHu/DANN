@@ -16,14 +16,16 @@ First, you need download the target dataset mnist_m from [pan.baidu.com](https:/
 
 ```
 cd dataset
-mkdir mnist_m
-cd mnist_m
 tar -zvxf mnist_m.tar.gz
 ```
 
 #### Training
 
-Then, run `main.py`
+Then, run:
+```
+cd ../train
+python3 main.py
+```
 
 python 3 and docker version please go to [DANN_py3](https://github.com/fungtion/DANN_py3) 
 
